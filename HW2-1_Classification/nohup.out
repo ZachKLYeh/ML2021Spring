@@ -1,0 +1,123 @@
+loading datasets...
+setting up model...
+start training...
+epoch: 1/50, train_acc: 0.254, train_loss: 0.042, val_acc:0.385, val_loss: 0.032
+epoch: 2/50, train_acc: 0.388, train_loss: 0.033, val_acc:0.470, val_loss: 0.028
+epoch: 3/50, train_acc: 0.422, train_loss: 0.031, val_acc:0.487, val_loss: 0.026
+epoch: 4/50, train_acc: 0.437, train_loss: 0.030, val_acc:0.512, val_loss: 0.025
+epoch: 5/50, train_acc: 0.448, train_loss: 0.030, val_acc:0.524, val_loss: 0.025
+epoch: 6/50, train_acc: 0.457, train_loss: 0.029, val_acc:0.534, val_loss: 0.024
+epoch: 7/50, train_acc: 0.465, train_loss: 0.029, val_acc:0.546, val_loss: 0.024
+epoch: 8/50, train_acc: 0.473, train_loss: 0.029, val_acc:0.563, val_loss: 0.023
+epoch: 9/50, train_acc: 0.480, train_loss: 0.028, val_acc:0.575, val_loss: 0.023
+epoch: 10/50, train_acc: 0.486, train_loss: 0.028, val_acc:0.584, val_loss: 0.022
+epoch: 11/50, train_acc: 0.492, train_loss: 0.028, val_acc:0.594, val_loss: 0.022
+epoch: 12/50, train_acc: 0.497, train_loss: 0.027, val_acc:0.599, val_loss: 0.022
+epoch: 13/50, train_acc: 0.503, train_loss: 0.027, val_acc:0.610, val_loss: 0.021
+epoch: 14/50, train_acc: 0.507, train_loss: 0.027, val_acc:0.609, val_loss: 0.021
+Best model is saved to path: /home/zacharyyeh/Projects/ML2021Spring/HW2-1_Classification/ckpt/Best.pth
+epoch: 15/50, train_acc: 0.511, train_loss: 0.027, val_acc:0.617, val_loss: 0.021
+epoch: 16/50, train_acc: 0.514, train_loss: 0.027, val_acc:0.620, val_loss: 0.021
+epoch: 17/50, train_acc: 0.517, train_loss: 0.027, val_acc:0.625, val_loss: 0.020
+epoch: 18/50, train_acc: 0.520, train_loss: 0.026, val_acc:0.627, val_loss: 0.021
+epoch: 19/50, train_acc: 0.522, train_loss: 0.026, val_acc:0.628, val_loss: 0.020
+epoch: 20/50, train_acc: 0.525, train_loss: 0.026, val_acc:0.631, val_loss: 0.020
+epoch: 21/50, train_acc: 0.527, train_loss: 0.026, val_acc:0.633, val_loss: 0.020
+epoch: 22/50, train_acc: 0.529, train_loss: 0.026, val_acc:0.632, val_loss: 0.020
+Best model is saved to path: /home/zacharyyeh/Projects/ML2021Spring/HW2-1_Classification/ckpt/Best.pth
+epoch: 23/50, train_acc: 0.530, train_loss: 0.026, val_acc:0.637, val_loss: 0.020
+epoch: 24/50, train_acc: 0.532, train_loss: 0.026, val_acc:0.639, val_loss: 0.020
+epoch: 25/50, train_acc: 0.533, train_loss: 0.026, val_acc:0.639, val_loss: 0.020
+Best model is saved to path: /home/zacharyyeh/Projects/ML2021Spring/HW2-1_Classification/ckpt/Best.pth
+epoch: 26/50, train_acc: 0.535, train_loss: 0.026, val_acc:0.638, val_loss: 0.020
+Best model is saved to path: /home/zacharyyeh/Projects/ML2021Spring/HW2-1_Classification/ckpt/Best.pth
+epoch: 27/50, train_acc: 0.536, train_loss: 0.026, val_acc:0.642, val_loss: 0.019
+epoch: 28/50, train_acc: 0.537, train_loss: 0.026, val_acc:0.647, val_loss: 0.019
+epoch: 29/50, train_acc: 0.538, train_loss: 0.026, val_acc:0.645, val_loss: 0.020
+Best model is saved to path: /home/zacharyyeh/Projects/ML2021Spring/HW2-1_Classification/ckpt/Best.pth
+epoch: 30/50, train_acc: 0.540, train_loss: 0.026, val_acc:0.648, val_loss: 0.019
+epoch: 31/50, train_acc: 0.540, train_loss: 0.025, val_acc:0.647, val_loss: 0.019
+Best model is saved to path: /home/zacharyyeh/Projects/ML2021Spring/HW2-1_Classification/ckpt/Best.pth
+epoch: 32/50, train_acc: 0.541, train_loss: 0.025, val_acc:0.648, val_loss: 0.019
+epoch: 33/50, train_acc: 0.542, train_loss: 0.025, val_acc:0.652, val_loss: 0.019
+epoch: 34/50, train_acc: 0.543, train_loss: 0.025, val_acc:0.652, val_loss: 0.019
+epoch: 35/50, train_acc: 0.543, train_loss: 0.025, val_acc:0.653, val_loss: 0.019
+epoch: 36/50, train_acc: 0.544, train_loss: 0.025, val_acc:0.654, val_loss: 0.019
+epoch: 37/50, train_acc: 0.546, train_loss: 0.025, val_acc:0.654, val_loss: 0.019
+Best model is saved to path: /home/zacharyyeh/Projects/ML2021Spring/HW2-1_Classification/ckpt/Best.pth
+epoch: 38/50, train_acc: 0.546, train_loss: 0.025, val_acc:0.656, val_loss: 0.019
+epoch: 39/50, train_acc: 0.547, train_loss: 0.025, val_acc:0.657, val_loss: 0.019
+epoch: 40/50, train_acc: 0.547, train_loss: 0.025, val_acc:0.656, val_loss: 0.019
+Best model is saved to path: /home/zacharyyeh/Projects/ML2021Spring/HW2-1_Classification/ckpt/Best.pth
+epoch: 41/50, train_acc: 0.548, train_loss: 0.025, val_acc:0.659, val_loss: 0.019
+epoch: 42/50, train_acc: 0.550, train_loss: 0.025, val_acc:0.660, val_loss: 0.019
+epoch: 43/50, train_acc: 0.550, train_loss: 0.025, val_acc:0.659, val_loss: 0.019
+Best model is saved to path: /home/zacharyyeh/Projects/ML2021Spring/HW2-1_Classification/ckpt/Best.pth
+epoch: 44/50, train_acc: 0.550, train_loss: 0.025, val_acc:0.660, val_loss: 0.019
+epoch: 45/50, train_acc: 0.551, train_loss: 0.025, val_acc:0.662, val_loss: 0.019
+epoch: 46/50, train_acc: 0.552, train_loss: 0.025, val_acc:0.661, val_loss: 0.019
+Best model is saved to path: /home/zacharyyeh/Projects/ML2021Spring/HW2-1_Classification/ckpt/Best.pth
+epoch: 47/50, train_acc: 0.551, train_loss: 0.025, val_acc:0.662, val_loss: 0.018
+epoch: 48/50, train_acc: 0.553, train_loss: 0.025, val_acc:0.661, val_loss: 0.019
+Best model is saved to path: /home/zacharyyeh/Projects/ML2021Spring/HW2-1_Classification/ckpt/Best.pth
+epoch: 49/50, train_acc: 0.553, train_loss: 0.025, val_acc:0.660, val_loss: 0.019
+Best model is saved to path: /home/zacharyyeh/Projects/ML2021Spring/HW2-1_Classification/ckpt/Best.pth
+epoch: 50/50, train_acc: 0.553, train_loss: 0.025, val_acc:0.664, val_loss: 0.018
+Training is completed
+Model is saved to to path: /home/zacharyyeh/Projects/ML2021Spring/HW2-1_Classification/ckpt/Last.pth
+loading datasets...
+setting up model...
+start training...
+epoch: 1/50, train_acc: 0.520, train_loss: 0.027, val_acc:0.656, val_loss: 0.018
+epoch: 2/50, train_acc: 0.624, train_loss: 0.021, val_acc:0.688, val_loss: 0.016
+epoch: 3/50, train_acc: 0.654, train_loss: 0.019, val_acc:0.700, val_loss: 0.015
+epoch: 4/50, train_acc: 0.672, train_loss: 0.018, val_acc:0.705, val_loss: 0.015
+epoch: 5/50, train_acc: 0.686, train_loss: 0.017, val_acc:0.713, val_loss: 0.015
+epoch: 6/50, train_acc: 0.696, train_loss: 0.016, val_acc:0.714, val_loss: 0.014
+epoch: 7/50, train_acc: 0.705, train_loss: 0.016, val_acc:0.718, val_loss: 0.014
+epoch: 8/50, train_acc: 0.712, train_loss: 0.016, val_acc:0.719, val_loss: 0.014
+epoch: 9/50, train_acc: 0.719, train_loss: 0.015, val_acc:0.718, val_loss: 0.014
+Best model is saved to path: /home/zacharyyeh/Projects/ML2021Spring/HW2-1_Classification/ckpt/Best.pth
+epoch: 10/50, train_acc: 0.725, train_loss: 0.015, val_acc:0.720, val_loss: 0.014
+epoch: 11/50, train_acc: 0.730, train_loss: 0.014, val_acc:0.720, val_loss: 0.014
+epoch: 12/50, train_acc: 0.735, train_loss: 0.014, val_acc:0.719, val_loss: 0.014
+epoch: 13/50, train_acc: 0.740, train_loss: 0.014, val_acc:0.722, val_loss: 0.014
+epoch: 14/50, train_acc: 0.744, train_loss: 0.014, val_acc:0.723, val_loss: 0.014
+epoch: 15/50, train_acc: 0.748, train_loss: 0.013, val_acc:0.722, val_loss: 0.014
+epoch: 16/50, train_acc: 0.751, train_loss: 0.013, val_acc:0.723, val_loss: 0.014
+epoch: 17/50, train_acc: 0.754, train_loss: 0.013, val_acc:0.724, val_loss: 0.014
+epoch: 18/50, train_acc: 0.759, train_loss: 0.013, val_acc:0.720, val_loss: 0.014
+epoch: 19/50, train_acc: 0.761, train_loss: 0.013, val_acc:0.725, val_loss: 0.014
+epoch: 20/50, train_acc: 0.764, train_loss: 0.012, val_acc:0.724, val_loss: 0.014
+epoch: 21/50, train_acc: 0.767, train_loss: 0.012, val_acc:0.722, val_loss: 0.014
+epoch: 22/50, train_acc: 0.770, train_loss: 0.012, val_acc:0.723, val_loss: 0.014
+epoch: 23/50, train_acc: 0.772, train_loss: 0.012, val_acc:0.722, val_loss: 0.014
+epoch: 24/50, train_acc: 0.774, train_loss: 0.012, val_acc:0.724, val_loss: 0.015
+epoch: 25/50, train_acc: 0.776, train_loss: 0.012, val_acc:0.721, val_loss: 0.015
+epoch: 26/50, train_acc: 0.778, train_loss: 0.012, val_acc:0.719, val_loss: 0.015
+epoch: 27/50, train_acc: 0.780, train_loss: 0.012, val_acc:0.721, val_loss: 0.015
+epoch: 28/50, train_acc: 0.782, train_loss: 0.011, val_acc:0.722, val_loss: 0.015
+epoch: 29/50, train_acc: 0.784, train_loss: 0.011, val_acc:0.722, val_loss: 0.015
+epoch: 30/50, train_acc: 0.786, train_loss: 0.011, val_acc:0.720, val_loss: 0.015
+epoch: 31/50, train_acc: 0.787, train_loss: 0.011, val_acc:0.721, val_loss: 0.015
+epoch: 32/50, train_acc: 0.789, train_loss: 0.011, val_acc:0.721, val_loss: 0.015
+epoch: 33/50, train_acc: 0.790, train_loss: 0.011, val_acc:0.719, val_loss: 0.015
+epoch: 34/50, train_acc: 0.792, train_loss: 0.011, val_acc:0.720, val_loss: 0.015
+epoch: 35/50, train_acc: 0.794, train_loss: 0.011, val_acc:0.720, val_loss: 0.015
+epoch: 36/50, train_acc: 0.795, train_loss: 0.011, val_acc:0.718, val_loss: 0.015
+epoch: 37/50, train_acc: 0.797, train_loss: 0.011, val_acc:0.719, val_loss: 0.015
+epoch: 38/50, train_acc: 0.798, train_loss: 0.011, val_acc:0.722, val_loss: 0.015
+epoch: 39/50, train_acc: 0.799, train_loss: 0.010, val_acc:0.719, val_loss: 0.015
+epoch: 40/50, train_acc: 0.801, train_loss: 0.010, val_acc:0.717, val_loss: 0.016
+epoch: 41/50, train_acc: 0.802, train_loss: 0.010, val_acc:0.719, val_loss: 0.016
+epoch: 42/50, train_acc: 0.803, train_loss: 0.010, val_acc:0.718, val_loss: 0.016
+epoch: 43/50, train_acc: 0.804, train_loss: 0.010, val_acc:0.718, val_loss: 0.016
+epoch: 44/50, train_acc: 0.805, train_loss: 0.010, val_acc:0.718, val_loss: 0.015
+epoch: 45/50, train_acc: 0.807, train_loss: 0.010, val_acc:0.718, val_loss: 0.016
+epoch: 46/50, train_acc: 0.808, train_loss: 0.010, val_acc:0.718, val_loss: 0.016
+epoch: 47/50, train_acc: 0.808, train_loss: 0.010, val_acc:0.717, val_loss: 0.016
+epoch: 48/50, train_acc: 0.810, train_loss: 0.010, val_acc:0.717, val_loss: 0.016
+epoch: 49/50, train_acc: 0.810, train_loss: 0.010, val_acc:0.716, val_loss: 0.016
+epoch: 50/50, train_acc: 0.812, train_loss: 0.010, val_acc:0.715, val_loss: 0.016
+Training is completed
+Model is saved to to path: /home/zacharyyeh/Projects/ML2021Spring/HW2-1_Classification/ckpt/Last.pth
