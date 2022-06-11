@@ -12,6 +12,7 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 #hyper parameters
 n_epoch = 50
 batch_size = 64
+patience = 5
 lr = 0.0001
 weight_decay = 1e-4
 MODEL_PATH = '/home/zacharyyeh/Projects/ML2021Spring/HW2-1_Classification/ckpt/Last.pth'
@@ -34,7 +35,6 @@ optimizer = torch.optim.Adam(model.parameters(), lr=lr)
 #training loop
 print('start training...')
 last_val_acc = 0
-best_model_saved = False
 for epoch in range(n_epoch):
     #reset acc and loss every epoch
     train_acc = 0.0
@@ -75,11 +75,12 @@ for epoch in range(n_epoch):
     print(f'val_acc:{val_acc/len(val_set):.3f}, val_loss: {val_loss/len(val_set):.3f}')
 
     #save best model
-    if best_model_saved == False:
-        if val_acc < last_val_acc+0.05:
-            torch.save(model.state_dict(), BEST_MODEL_PATH)
-            print('Best model is saved to path:', BEST_MODEL_PATH)
-            best_model_saved = True
+    if val_acc < last_val_acc+0.05:
+        patience -= 1
+
+    if patience == 0:
+        torch.save(model.state_dict(), BEST_MODEL_PATH)
+        print('Best model is saved to path:', BEST_MODEL_PATH)
     last_val_acc = val_acc
 
 print('Training is completed')
