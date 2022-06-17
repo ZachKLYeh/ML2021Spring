@@ -1,0 +1,203 @@
+Start training...
+epoch: 1/20, step: 100/987, loss: 2.295
+epoch: 1/20, step: 200/987, loss: 1.701
+epoch: 1/20, step: 300/987, loss: 1.980
+epoch: 1/20, step: 400/987, loss: 2.131
+epoch: 1/20, step: 500/987, loss: 1.484
+epoch: 1/20, step: 600/987, loss: 1.667
+epoch: 1/20, step: 700/987, loss: 2.261
+epoch: 1/20, step: 800/987, loss: 1.518
+epoch: 1/20, step: 900/987, loss: 1.543
+epoch: 1/20, train_acc: 0.349, train_loss: 0.186, val_acc:0.356, val_loss: 0.185
+epoch: 2/20, step: 100/987, loss: 1.393
+epoch: 2/20, step: 200/987, loss: 1.322
+epoch: 2/20, step: 300/987, loss: 1.581
+epoch: 2/20, step: 400/987, loss: 1.404
+epoch: 2/20, step: 500/987, loss: 1.429
+epoch: 2/20, step: 600/987, loss: 1.503
+epoch: 2/20, step: 700/987, loss: 1.866
+epoch: 2/20, step: 800/987, loss: 1.373
+epoch: 2/20, step: 900/987, loss: 1.295
+epoch: 2/20, train_acc: 0.496, train_loss: 0.144, val_acc:0.382, val_loss: 0.175
+epoch: 3/20, step: 100/987, loss: 0.546
+epoch: 3/20, step: 200/987, loss: 0.777
+epoch: 3/20, step: 300/987, loss: 1.118
+epoch: 3/20, step: 400/987, loss: 0.937
+epoch: 3/20, step: 500/987, loss: 0.814
+epoch: 3/20, step: 600/987, loss: 1.276
+epoch: 3/20, step: 700/987, loss: 1.124
+epoch: 3/20, step: 800/987, loss: 1.438
+epoch: 3/20, step: 900/987, loss: 0.838
+epoch: 3/20, train_acc: 0.586, train_loss: 0.118, val_acc:0.427, val_loss: 0.175
+epoch: 4/20, step: 100/987, loss: 1.211
+epoch: 4/20, step: 200/987, loss: 1.372
+epoch: 4/20, step: 300/987, loss: 1.430
+epoch: 4/20, step: 400/987, loss: 1.358
+epoch: 4/20, step: 500/987, loss: 0.476
+epoch: 4/20, step: 600/987, loss: 0.881
+epoch: 4/20, step: 700/987, loss: 0.948
+epoch: 4/20, step: 800/987, loss: 1.558
+epoch: 4/20, step: 900/987, loss: 0.740
+epoch: 4/20, train_acc: 0.651, train_loss: 0.099, val_acc:0.433, val_loss: 0.182
+epoch: 5/20, step: 100/987, loss: 0.496
+epoch: 5/20, step: 200/987, loss: 0.992
+epoch: 5/20, step: 300/987, loss: 1.194
+epoch: 5/20, step: 400/987, loss: 1.498
+epoch: 5/20, step: 500/987, loss: 0.991
+epoch: 5/20, step: 600/987, loss: 0.711
+epoch: 5/20, step: 700/987, loss: 2.109
+epoch: 5/20, step: 800/987, loss: 0.638
+epoch: 5/20, step: 900/987, loss: 0.777
+epoch: 5/20, train_acc: 0.705, train_loss: 0.084, val_acc:0.427, val_loss: 0.193
+epoch: 6/20, step: 100/987, loss: 0.368
+epoch: 6/20, step: 200/987, loss: 0.184
+epoch: 6/20, step: 300/987, loss: 0.592
+epoch: 6/20, step: 400/987, loss: 0.989
+epoch: 6/20, step: 500/987, loss: 0.566
+epoch: 6/20, step: 600/987, loss: 0.819
+epoch: 6/20, step: 700/987, loss: 0.307
+epoch: 6/20, step: 800/987, loss: 0.875
+epoch: 6/20, step: 900/987, loss: 0.524
+epoch: 6/20, train_acc: 0.748, train_loss: 0.072, val_acc:0.442, val_loss: 0.194
+epoch: 7/20, step: 100/987, loss: 1.114
+epoch: 7/20, step: 200/987, loss: 0.199
+epoch: 7/20, step: 300/987, loss: 0.603
+epoch: 7/20, step: 400/987, loss: 1.243
+epoch: 7/20, step: 500/987, loss: 0.760
+epoch: 7/20, step: 600/987, loss: 0.422
+epoch: 7/20, step: 700/987, loss: 0.523
+epoch: 7/20, step: 800/987, loss: 0.669
+epoch: 7/20, step: 900/987, loss: 0.667
+epoch: 7/20, train_acc: 0.785, train_loss: 0.063, val_acc:0.458, val_loss: 0.215
+epoch: 8/20, step: 100/987, loss: 0.461
+epoch: 8/20, step: 200/987, loss: 0.365
+epoch: 8/20, step: 300/987, loss: 0.587
+epoch: 8/20, step: 400/987, loss: 0.359
+epoch: 8/20, step: 500/987, loss: 0.233
+epoch: 8/20, step: 600/987, loss: 0.687
+epoch: 8/20, step: 700/987, loss: 0.314
+epoch: 8/20, step: 800/987, loss: 0.283
+epoch: 8/20, step: 900/987, loss: 0.688
+epoch: 8/20, train_acc: 0.817, train_loss: 0.053, val_acc:0.423, val_loss: 0.240
+epoch: 9/20, step: 100/987, loss: 0.413
+epoch: 9/20, step: 200/987, loss: 0.513
+epoch: 9/20, step: 300/987, loss: 0.342
+epoch: 9/20, step: 400/987, loss: 0.262
+epoch: 9/20, step: 500/987, loss: 0.419
+epoch: 9/20, step: 600/987, loss: 0.654
+epoch: 9/20, step: 700/987, loss: 0.143
+epoch: 9/20, step: 800/987, loss: 0.674
+epoch: 9/20, step: 900/987, loss: 0.399
+epoch: 9/20, train_acc: 0.834, train_loss: 0.047, val_acc:0.455, val_loss: 0.230
+epoch: 10/20, step: 100/987, loss: 0.131
+epoch: 10/20, step: 200/987, loss: 0.068
+epoch: 10/20, step: 300/987, loss: 0.206
+epoch: 10/20, step: 400/987, loss: 0.403
+epoch: 10/20, step: 500/987, loss: 0.279
+epoch: 10/20, step: 600/987, loss: 0.161
+epoch: 10/20, step: 700/987, loss: 0.160
+epoch: 10/20, step: 800/987, loss: 0.169
+epoch: 10/20, step: 900/987, loss: 0.445
+epoch: 10/20, train_acc: 0.870, train_loss: 0.039, val_acc:0.464, val_loss: 0.234
+epoch: 11/20, step: 100/987, loss: 0.220
+epoch: 11/20, step: 200/987, loss: 0.181
+epoch: 11/20, step: 300/987, loss: 0.152
+epoch: 11/20, step: 400/987, loss: 0.585
+epoch: 11/20, step: 500/987, loss: 0.523
+epoch: 11/20, step: 600/987, loss: 0.564
+epoch: 11/20, step: 700/987, loss: 0.168
+epoch: 11/20, step: 800/987, loss: 0.345
+epoch: 11/20, step: 900/987, loss: 0.540
+epoch: 11/20, train_acc: 0.888, train_loss: 0.033, val_acc:0.447, val_loss: 0.278
+epoch: 12/20, step: 100/987, loss: 0.030
+epoch: 12/20, step: 200/987, loss: 0.313
+epoch: 12/20, step: 300/987, loss: 0.119
+epoch: 12/20, step: 400/987, loss: 0.153
+epoch: 12/20, step: 500/987, loss: 0.036
+epoch: 12/20, step: 600/987, loss: 0.599
+epoch: 12/20, step: 700/987, loss: 0.686
+epoch: 12/20, step: 800/987, loss: 0.097
+epoch: 12/20, step: 900/987, loss: 0.327
+epoch: 12/20, train_acc: 0.912, train_loss: 0.027, val_acc:0.445, val_loss: 0.289
+epoch: 13/20, step: 100/987, loss: 0.511
+epoch: 13/20, step: 200/987, loss: 0.208
+epoch: 13/20, step: 300/987, loss: 0.161
+epoch: 13/20, step: 400/987, loss: 0.277
+epoch: 13/20, step: 500/987, loss: 0.728
+epoch: 13/20, step: 600/987, loss: 0.164
+epoch: 13/20, step: 700/987, loss: 0.404
+epoch: 13/20, step: 800/987, loss: 0.441
+epoch: 13/20, step: 900/987, loss: 0.257
+epoch: 13/20, train_acc: 0.911, train_loss: 0.026, val_acc:0.459, val_loss: 0.295
+epoch: 14/20, step: 100/987, loss: 0.141
+epoch: 14/20, step: 200/987, loss: 0.048
+epoch: 14/20, step: 300/987, loss: 0.156
+epoch: 14/20, step: 400/987, loss: 0.497
+epoch: 14/20, step: 500/987, loss: 0.276
+epoch: 14/20, step: 600/987, loss: 0.020
+epoch: 14/20, step: 700/987, loss: 0.056
+epoch: 14/20, step: 800/987, loss: 0.069
+epoch: 14/20, step: 900/987, loss: 0.450
+epoch: 14/20, train_acc: 0.934, train_loss: 0.020, val_acc:0.450, val_loss: 0.318
+epoch: 15/20, step: 100/987, loss: 0.193
+epoch: 15/20, step: 200/987, loss: 0.158
+epoch: 15/20, step: 300/987, loss: 0.577
+epoch: 15/20, step: 400/987, loss: 0.091
+epoch: 15/20, step: 500/987, loss: 0.240
+epoch: 15/20, step: 600/987, loss: 0.311
+epoch: 15/20, step: 700/987, loss: 0.082
+epoch: 15/20, step: 800/987, loss: 0.224
+epoch: 15/20, step: 900/987, loss: 0.182
+epoch: 15/20, train_acc: 0.935, train_loss: 0.019, val_acc:0.433, val_loss: 0.332
+epoch: 16/20, step: 100/987, loss: 0.141
+epoch: 16/20, step: 200/987, loss: 0.027
+epoch: 16/20, step: 300/987, loss: 0.158
+epoch: 16/20, step: 400/987, loss: 0.014
+epoch: 16/20, step: 500/987, loss: 0.375
+epoch: 16/20, step: 600/987, loss: 0.100
+epoch: 16/20, step: 700/987, loss: 0.207
+epoch: 16/20, step: 800/987, loss: 0.259
+epoch: 16/20, step: 900/987, loss: 0.195
+epoch: 16/20, train_acc: 0.936, train_loss: 0.018, val_acc:0.456, val_loss: 0.352
+epoch: 17/20, step: 100/987, loss: 0.367
+epoch: 17/20, step: 200/987, loss: 0.112
+epoch: 17/20, step: 300/987, loss: 0.058
+epoch: 17/20, step: 400/987, loss: 0.213
+epoch: 17/20, step: 500/987, loss: 0.211
+epoch: 17/20, step: 600/987, loss: 0.042
+epoch: 17/20, step: 700/987, loss: 0.006
+epoch: 17/20, step: 800/987, loss: 0.289
+epoch: 17/20, step: 900/987, loss: 0.239
+epoch: 17/20, train_acc: 0.949, train_loss: 0.015, val_acc:0.441, val_loss: 0.353
+epoch: 18/20, step: 100/987, loss: 0.052
+epoch: 18/20, step: 200/987, loss: 0.024
+epoch: 18/20, step: 300/987, loss: 0.028
+epoch: 18/20, step: 400/987, loss: 0.103
+epoch: 18/20, step: 500/987, loss: 0.034
+epoch: 18/20, step: 600/987, loss: 0.169
+epoch: 18/20, step: 700/987, loss: 0.002
+epoch: 18/20, step: 800/987, loss: 0.383
+epoch: 18/20, step: 900/987, loss: 0.092
+epoch: 18/20, train_acc: 0.955, train_loss: 0.013, val_acc:0.447, val_loss: 0.390
+epoch: 19/20, step: 100/987, loss: 0.006
+epoch: 19/20, step: 200/987, loss: 0.617
+epoch: 19/20, step: 300/987, loss: 0.186
+epoch: 19/20, step: 400/987, loss: 0.141
+epoch: 19/20, step: 500/987, loss: 0.041
+epoch: 19/20, step: 600/987, loss: 0.043
+epoch: 19/20, step: 700/987, loss: 0.093
+epoch: 19/20, step: 800/987, loss: 0.503
+epoch: 19/20, step: 900/987, loss: 0.080
+epoch: 19/20, train_acc: 0.959, train_loss: 0.012, val_acc:0.447, val_loss: 0.379
+epoch: 20/20, step: 100/987, loss: 0.203
+epoch: 20/20, step: 200/987, loss: 0.194
+epoch: 20/20, step: 300/987, loss: 0.096
+epoch: 20/20, step: 400/987, loss: 0.143
+epoch: 20/20, step: 500/987, loss: 0.070
+epoch: 20/20, step: 600/987, loss: 0.238
+epoch: 20/20, step: 700/987, loss: 0.031
+epoch: 20/20, step: 800/987, loss: 0.012
+epoch: 20/20, step: 900/987, loss: 0.078
+epoch: 20/20, train_acc: 0.960, train_loss: 0.012, val_acc:0.445, val_loss: 0.389
+Training is completed
+model saved as: semi_model.pth
