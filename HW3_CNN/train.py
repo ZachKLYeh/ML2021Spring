@@ -4,6 +4,7 @@ from torch.utils.data import DataLoader
 import dataset
 import model
 
+
 #Set device
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -16,28 +17,31 @@ learning_rate = 0.0001
 semi = True
 weight_decay = 1e-5
 
+#Make model and loss funcitions
+model = model.CNN().to(device)
+criterion = nn.CrossEntropyLoss()
+optimizer = torch.optim.Adam(model.parameters(), lr = learning_rate, weight_decay=weight_decay)
 
-#Make dataset with transform included
+#Make small training dataset
 trainset = dataset.FoodDataset(mode="train")
 train_loader = DataLoader(dataset = trainset, batch_size = batch_size, shuffle = True)
 
 if semi:
+    #Make generated training dataset and load model 
     semiset = dataset.SemiDataset()
     semi_loader = DataLoader(dataset = semiset, batch_size = batch_size, shuffle = True)
     trainset = torch.utils.data.ConcatDataset([trainset, semiset])
     train_loader = DataLoader(dataset=trainset, batch_size = batch_size, shuffle = True)
+    model.load_state_dict(torch.load(dataset.MODEL_PATH))
 
 valset = dataset.FoodDataset(mode="val")
 val_loader = DataLoader(dataset = valset, batch_size = batch_size, shuffle = False)
 
-#Make model and loss funcitions
-model = model.VGGNet().to(device)
-criterion = nn.CrossEntropyLoss()
-optimizer = torch.optim.Adam(model.parameters(), lr = learning_rate, weight_decay=weight_decay)
-
 #Make Training Loop
 steps = len(train_loader)
 print('Start training...')
+
+loss_record = [10000]
 
 for epoch in range(n_epoch):
     train_acc = 0.0
@@ -80,14 +84,18 @@ for epoch in range(n_epoch):
             loss = criterion(predicted, labels)
             val_acc += (prediction.cpu() == labels.cpu()).sum().item()
             val_loss += loss.item()
-
+            
     print(f'val_acc:{val_acc/len(valset):.3f}, val_loss: {val_loss/len(valset):.3f}')
+
+    if val_loss < min(loss_record):
+        if not semi:
+            torch.save(model.state_dict(), dataset.MODEL_PATH)
+            print('model saved as:', dataset.MODEL_PATH)
+        else:
+            torch.save(model.state_dict(), 'semi_model.pth')
+            print('model saved as:', 'semi_model.pth')
+
+    loss_record.append(val_loss)
 
 print('Training is completed')
 
-if not semi:
-    torch.save(model.state_dict(), dataset.MODEL_PATH)
-    print('model saved as:', dataset.MODEL_PATH)
-else:
-    torch.save(model.state_dict(), 'semi_model.pth')
-    print('model saved as:', 'semi_model.pth')

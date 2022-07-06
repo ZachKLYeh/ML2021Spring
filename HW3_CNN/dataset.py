@@ -3,7 +3,14 @@ from torch.utils.data import Dataset
 import torchvision.transforms as transforms
 import os
 from PIL import Image
+from matplotlib import image as matimage
 import model
+
+def getimage(img_path):
+    image = Image.open(img_path)
+    temp = image.copy()
+    image.close()
+    return temp
 
 dir_list = os.listdir('/home/zacharyyeh/Datasets/food-11/training/labeled')
 train_dir = r'/home/zacharyyeh/Datasets/food-11/training/labeled'
@@ -29,10 +36,10 @@ class FoodDataset(Dataset):
             images = os.listdir(dir_path)
             for j in range(len(images)):
                 image_path = os.path.join(dir_path, images[j])
-                opened_image = Image.open(image_path)
+                opened_image = getimage(image_path)
                 self.train_images.append(opened_image)
                 self.train_labels.append(int(dir_list[i])%10 if int(dir_list[i])<10 else int(dir_list[i]))
-        
+                
     def __getitem__(self, index):
         img, label = self.train_images[index], self.train_labels[index]
         img, label = composed_transform(img), torch.tensor(label)
@@ -47,7 +54,7 @@ image_names = os.listdir(unlabeled_dir)
 MODEL_PATH = 'model.pth'
 
 if os.path.exists(MODEL_PATH):
-    model = model.VGGNet()
+    model = model.CNN()
     model.load_state_dict(torch.load(MODEL_PATH))
     model.eval()
 
@@ -57,7 +64,7 @@ class SemiDataset(Dataset):
         #scan the training set for labels and images
         for i in range(len(image_names)):
             image_path = os.path.join(unlabeled_dir, image_names[i])
-            opened_image = Image.open(image_path)
+            opened_image = getimage(image_path)
             self.train_images.append(opened_image)
 
     def __getitem__(self, index):
