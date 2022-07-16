@@ -23,7 +23,7 @@ class COVID19Dataset(Dataset):
         #Note!!: Array[:, 0:b] only return b columns not b+1
         #So specify b as the number you want for your columns
         #self.data[:, 0:93] takes column 0 to 92!!! 93 columns in total
-        self.features = torch.from_numpy(self.data[:, 0:93])
+        self.features = torch.from_numpy(self.data[:, 0:93]).to(torch.long)
         self.labels = torch.from_numpy(self.data[:, 93])
 
     def __getitem__(self, index):

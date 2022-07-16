@@ -10,7 +10,7 @@ import numpy as np
 device = "cuda"
 
 #hyper parameters
-n_epoch = 10
+n_epoch = 30
 batch_size = 16
 lr = 0.01
 
@@ -22,7 +22,7 @@ train_loader = DataLoader(dataset = train_set, shuffle = True, batch_size = batc
 test_loader = DataLoader(dataset = test_set, shuffle = True, batch_size = batch_size, num_workers = 2)
 
 #setup model
-model = model.Regression()
+model = model.EmbeddedRegression()
 criterion = nn.MSELoss()
 optimizer = torch.optim.SGD(model.parameters(), lr=lr)
 
